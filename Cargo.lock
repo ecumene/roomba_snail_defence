@@ -3693,6 +3693,8 @@ dependencies = [
  "flume",
  "futures",
  "futures-util",
+ "serde",
+ "serde_json",
  "tokio 0.2.25",
  "tokio-stream",
  "warp",

@@ -1,0 +1,42 @@
+#build-modal {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: white solid 2px;
+  border-radius: 0.25rem;
+  padding: 0.25 0.5rem;
+  background: #a9afa5;
+  z-index: 1000;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.map {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  height: 100%;
+  width: auto;
+}
+
+.building {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32;
+  height: 32;
+}
+
+.indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32;
+  height: 32;
+  background: rgba(0, 0, 0, 0.5);
+}
