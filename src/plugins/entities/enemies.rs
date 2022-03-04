@@ -90,7 +90,7 @@ fn move_enemies(
         if distance < 0.1 {
             enemy.target_index += 1;
             if enemy.target_index >= path.len() {
-                enemy.target_index = 0;
+                panic!("YOU LOST! THE SNAIL HAS BEEN ROOMBA'D!")
             }
         }
     }

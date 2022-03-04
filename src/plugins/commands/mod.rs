@@ -75,7 +75,6 @@ pub fn poll_commands(
     mut commands: Commands,
 ) {
     if let Ok(message) = reciever.recv.try_recv() {
-        println!("message: {}", message);
         commands.spawn_bundle(TextBundle {
             style: Style {
                 align_self: AlignSelf::FlexEnd,
