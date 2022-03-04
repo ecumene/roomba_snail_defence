@@ -37,8 +37,8 @@ async fn app(client_comms: Comms<Client>, server_comms: Comms<Server>) {
     App::new()
         .insert_resource(Game {
             level: 1,
-            enemies_left: 50,
-            timeout: 0.0,
+            enemies_left: 10,
+            timeout: 20.0,
         })
         .add_plugins(DefaultPlugins)
         .add_startup_system(camera_system)
